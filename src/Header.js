@@ -17,6 +17,7 @@ function Header({ screenSize }) {
 				<div className="dual-icons" style={{ flex: 0 }}>
 					<div className="icons">
 						<a
+							rel="noreferrer"
 							target="_blank"
 							href="https://github.com/J-Russell329"
 						>
@@ -25,6 +26,7 @@ function Header({ screenSize }) {
 					</div>
 					<div className="icons">
 						<a
+							rel="noreferrer"
 							target="_blank"
 							href="https://www.linkedin.com/in/jacob-t-russell/"
 						>

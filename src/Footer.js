@@ -7,12 +7,17 @@ function Footer() {
 		<div id="footer">
 			<div className="dual-icons" style={{ flex: 0 }}>
 				<div className="icons">
-					<a target="_blank" href="https://github.com/J-Russell329">
+					<a
+						target="_blank"
+						rel="noreferrer"
+						href="https://github.com/J-Russell329"
+					>
 						<i className="fab fa-github fa-3x"></i>
 					</a>
 				</div>
 				<div className="icons">
 					<a
+						rel="noreferrer"
 						target="_blank"
 						href="https://www.linkedin.com/in/jacob-t-russell/"
 					>
@@ -20,13 +25,17 @@ function Footer() {
 					</a>
 				</div>
 				<div className="icons">
-					<a target="_blank" href={resume}>
+					<a target="_blank" rel="noreferrer" href={resume}>
 						<i class="fas fa-file fa-3x"></i>
 					</a>
 				</div>
 			</div>
 			<div>
-				<a target="_blank" href="mailto:jtr.russell329@gmail.com">
+				<a
+					target="_blank"
+					rel="noreferrer"
+					href="mailto:jtr.russell329@gmail.com"
+				>
 					<i class="fas fa-at fa-3x"></i>
 				</a>
 			</div>
