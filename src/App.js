@@ -49,7 +49,6 @@ function App() {
 					altText="twiter clone warbler project"
 					btn1
 					btn1Name="Live"
-					btn1Link="https://jacob-russell-jobly.netlify.app/companies"
 					btn2
 					btn2Name="Git Back"
 					btn3
@@ -63,7 +62,7 @@ function App() {
 					altText="job finder app"
 					btn1
 					btn1Name="Live"
-					btn1Link="https://jacob-russell-jobly.netlify.app/companies"
+					btn1Link="https://jacob-russell-jobly.netlify.app/"
 					btn2
 					btn2Name="Git Back"
 					btn2Link="https://github.com/J-Russell329/experimental_JS/tree/master/express-jobly"
