@@ -49,10 +49,10 @@ function App() {
 					altText="twiter clone warbler project"
 					btn1
 					btn1Name="Live"
+					btn1Link="https://jacob-russell-warbler.herokuapp.com/"
 					btn2
-					btn2Name="Git Back"
-					btn3
-					btn3Name="Git Front"
+					btn2Name="Git Code"
+					btn2Link="https://github.com/J-Russell329/warbler"
 				/>
 				<Card
 					screenSize={screenSize}
