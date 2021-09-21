@@ -7,9 +7,7 @@ import Header from './Header';
 import '@fortawesome/fontawesome-free';
 
 function App() {
-	const [screenSize, setScreenSize] = useState(
-		window.innerWidth > 670 ? 1 : 0
-	);
+	const [screenSize, setScreenSize] = useState(getWindowSize());
 
 	useEffect(() => {
 		window.addEventListener('resize', updateDimensions);
@@ -21,6 +19,12 @@ function App() {
 			setScreenSize(1);
 		else setScreenSize(2);
 	};
+
+	function getWindowSize() {
+		if (window.innerWidth < 900) return 0;
+		else if (window.innerWidth >= 900 && window.innerWidth < 1300) return 1;
+		else return 2;
+	}
 
 	return (
 		<div className="App">
