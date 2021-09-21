@@ -38,6 +38,7 @@ function App() {
 					altText="Bring To Light Books Logo"
 					btn1
 					btn1Name="Live"
+					btn1Link="https://find-my-book-list.herokuapp.com/"
 				/>
 				<Card
 					screenSize={screenSize}
@@ -48,6 +49,7 @@ function App() {
 					altText="twiter clone warbler project"
 					btn1
 					btn1Name="Live"
+					btn1Link="https://jacob-russell-jobly.netlify.app/companies"
 					btn2
 					btn2Name="Git Back"
 					btn3
@@ -61,8 +63,13 @@ function App() {
 					altText="job finder app"
 					btn1
 					btn1Name="Live"
+					btn1Link="https://jacob-russell-jobly.netlify.app/companies"
 					btn2
-					btn2Name="Code"
+					btn2Name="Git Back"
+					btn2Link="https://github.com/J-Russell329/experimental_JS/tree/master/express-jobly"
+					btn3
+					btn3Name="Git Front"
+					btn3Link="https://github.com/J-Russell329/jobly-329"
 				/>
 				<div class="card">
 					<h2>Contact Info Can Be Found in my resume</h2>
