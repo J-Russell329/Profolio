@@ -11,7 +11,11 @@ function Header({ screenSize }) {
 		<div id="header" style={styles}>
 			<div className="col">
 				<h1>
-					Hi, i am <span style={{ color: 'lightGreen' }}>Jacob</span>!
+					Hi, i am{' '}
+					<a href="#about-me" style={{ color: 'lightGreen' }}>
+						Jacob
+					</a>
+					!
 				</h1>
 				<p>Turning ideas into a reality</p>
 				<div className="dual-icons" style={{ flex: 0 }}>
