@@ -5,6 +5,10 @@ import Card from './Card';
 import Footer from './Footer';
 import Header from './Header';
 import '@fortawesome/fontawesome-free';
+import resume from './resume/jacob-resume.pdf';
+import warblerImage from './images/warbler.jpg';
+import BTLBImage from './images/bring-to-life-books.jpg';
+import joblyImage from './images/jobly.jpg';
 
 function App() {
 	const [screenSize, setScreenSize] = useState(getWindowSize());
@@ -19,7 +23,6 @@ function App() {
 			setScreenSize(1);
 		else setScreenSize(2);
 	};
-
 	function getWindowSize() {
 		if (window.innerWidth < 900) return 0;
 		else if (window.innerWidth >= 900 && window.innerWidth < 1300) return 1;
@@ -40,6 +43,7 @@ function App() {
           Front End: (JS, Node.js, React, Ajax)"
 					header="Bring To Light Books"
 					altText="Bring To Light Books Logo"
+					imgSrc={BTLBImage}
 					btn1
 					btn1Name="Live"
 					btn1Link="https://find-my-book-list.herokuapp.com/"
@@ -51,6 +55,7 @@ function App() {
 					p2="Python, Flask, Ajax, SQLAlchemy, HTML5, CSS"
 					header="Warbler"
 					altText="twiter clone warbler project"
+					imgSrc={warblerImage}
 					btn1
 					btn1Name="Live"
 					btn1Link="https://jacob-russell-warbler.herokuapp.com/"
@@ -64,6 +69,7 @@ function App() {
 					p2="JS, Node.js, SQL, Ajax"
 					header="Jobly"
 					altText="job finder app"
+					imgSrc={joblyImage}
 					btn1
 					btn1Name="Live"
 					btn1Link="https://jacob-russell-jobly.netlify.app/"
@@ -75,7 +81,17 @@ function App() {
 					btn3Link="https://github.com/J-Russell329/jobly-329"
 				/>
 				<div class="card">
-					<h2>Contact Info Can Be Found in my resume</h2>
+					<h2>
+						Contact Info Can Be Found On My
+						<a
+							href={resume}
+							style={{ color: 'lightGreen' }}
+							rel="noreferrer"
+							target="_blank"
+						>
+							( Resume )
+						</a>
+					</h2>
 				</div>
 			</main>
 			<Footer />

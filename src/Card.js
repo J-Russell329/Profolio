@@ -33,7 +33,10 @@ function Card({
 			: { flexDirection: 'column-reverse' };
 	return (
 		<div className="cards" style={cardStyles}>
-			<h2>{header}</h2>
+			<div>
+				<h2>{header}</h2>
+			</div>
+
 			<div className="rows" style={flexStyles}>
 				<div className="text">
 					<p>{p1}</p>
